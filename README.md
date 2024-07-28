@@ -39,6 +39,9 @@ graph LR
         A[曖昧な指示] --> B[AIモデル]
         B --> C[低品質な出力]
     end
+```
+```mermaid
+graph LR
     subgraph "プロンプトエンジニアリングあり"
         D[明確な指示] --> E[AIモデル]
         E --> F[高品質な出力]
